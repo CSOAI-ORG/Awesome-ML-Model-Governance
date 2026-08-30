@@ -1,0 +1,34 @@
+name: Restore Awful AI emoji
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-emoji.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore original emoji
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('README.md')
+          t = p.read_text()
+          t2 = t.replace('👿 Awful AI', '😈 Awful AI')
+          p.write_text(t2)
+          PY
+          if git diff --quiet README.md; then
+            echo "Emoji already original"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "fix: restore original Awful AI emoji"
+          git push
