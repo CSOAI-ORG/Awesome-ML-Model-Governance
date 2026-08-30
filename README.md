@@ -2,7 +2,7 @@
 
 ## Model Governance, Ethics, Responsible AI
 
-1. [Council of AI — GSPC](https://councilof.ai) — Independent AI-governance **measurement** board (not certification). Live ruling **14 measured of 14 quotable** via https://councilof.ai/api/gspc; DOI [10.57967/hf/10114](https://doi.org/10.57967/hf/10114).
+1. [Council of AI — GSPC](https://councilof.ai) — Independent AI-governance **measurement** board (not certification). Living board **22 axis · 15 measured** (7 slots empty) via https://councilof.ai/api/gspc — quote `totals.public_count`. Methodology DOI [10.5281/zenodo.21991104](https://doi.org/10.5281/zenodo.21991104).
 1. [Book: "Responsible AI". 2022. by Patrick Hall, Rumman Chowdhury. O'Reilly Media, Inc.](https://learning.oreilly.com/library/view/responsible-ai/9781098102425/)
 1. [Book: "Practical Fairness". 2020. By Aileen Nielsen. O'Reilly Media, Inc.](https://learning.oreilly.com/library/view/practical-fairness/9781492075721/)
 1. [Book: "Fairness and machine learning: Limitations and Opportunities." Barocas, S., Hardt, M. and Narayanan, A., 2018.](https://fairmlbook.org/)
@@ -27,7 +27,7 @@
 1. [ABOUT ML](https://www.partnershiponai.org/about-ml/) - Annotation and Benchmarking on Understanding and Transparency of Machine learning Lifecycles.
 1. [Mitchell, Margaret and Wu, Simone and Zaldivar, Andrew and Barnes, Parker and Vasserman, Lucy and Hutchinson, Ben and Spitzer, Elena and Raji, Inioluwa Deborah and Gebru, Timnit. "Model Cards for Model Reporting" (2019)](https://arxiv.org/abs/1908.06165)  - Code: [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit)
 1. [Navigate the road to Responsible AI – Gradient Flow Blog](https://gradientflow.com/navigate-the-road-to-responsible-ai/)
-1. [😈 Awful AI is a curated list to track current scary usages of AI - hoping to raise awareness](https://github.com/daviddao/awful-ai)
+1. [👿 Awful AI is a curated list to track current scary usages of AI - hoping to raise awareness](https://github.com/daviddao/awful-ai)
 1. [Seven legal questions for data scientists](https://www.oreilly.com/radar/seven-legal-questions-for-data-scientists/)
 1. [2020 in Review: 8 New AI Regulatory Proposals from Governments](https://syncedreview.com/2020/12/31/2020-in-review-8-new-ai-regulatory-proposals-from-governments/)
 1. [Model Governance resources](https://github.com/bnh-ai/resources)
